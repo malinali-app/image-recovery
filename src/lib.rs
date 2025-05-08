@@ -97,7 +97,7 @@
 //! ---|---
 //! ![source image, noisy](https://github.com/lily-mosquitoes/image-recovery/raw/main/examples/source_images/angry_birb_noisy.png) | ![output image, denoised](https://github.com/lily-mosquitoes/image-recovery/raw/main/examples/result_images/angry_birb_denoised.png)
 
-#![feature(test)]
+#[cfg(test)]
 extern crate test;
 
 mod image_array;
